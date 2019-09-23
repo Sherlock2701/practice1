@@ -1,29 +1,70 @@
-{    "nodes": [
+{
+    "nodes": [
         {
-            "id": "A"
+            "id": "CPD"
         },
         {
-            "id": "B"
+            "id": "Arnett Co"
         },
         {
-            "id": "C"
+            "id": "Scope of work"
         },
         {
-            "id": "D"
+            "id": "Subcontract"
+        },
+        {
+            "id": "Insurance"
+        },
+        {
+            "id": "Upload Date"
+        },
+        {
+            "id": "Termination Date"
+        },
+        {
+            "id": "Compensation"
         }
     ],
     "links": [
         {
-            "source": "A",
-            "target": "B"
+            "source": "CPD",
+            "target": "Arnett Co"
         },
         {
-            "source": "B",
-            "target": "C"
+            "source": "CPD",
+            "target": "Scope of work"
         },
         {
-            "source": "B",
-            "target": "D"
+            "source": "CPD",
+            "target": "Termination Date"
+        },
+        {
+            "source": "CPD",
+            "target": "Compensation"
+        },
+        {
+            "source": "CPD",
+            "target": "Upload Date"
+        },
+        {
+            "source": "CPD",
+            "target": "Insurance"
+        },
+        {
+            "source": "Arnett Co",
+            "target": "Scope of work"
+        },
+        {
+            "source": "Arnett Co",
+            "target": "Compensation"
+        },
+        {
+            "source": "Scope of work",
+            "target": "Subcontract"
+        },
+        {
+            "source": "Upload Date",
+            "target": "Termination Date"
         }
     ]
 }
