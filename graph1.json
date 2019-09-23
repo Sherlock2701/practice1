@@ -1,0 +1,70 @@
+{
+    "nodes": [
+        {
+            "id": "CPD"
+        },
+        {
+            "id": "Arnett Co"
+        },
+        {
+            "id": "Scope of work"
+        },
+        {
+            "id": "Subcontract"
+        },
+        {
+            "id": "Insurance"
+        },
+        {
+            "id": "Upload Date"
+        },
+        {
+            "id": "Termination Date"
+        },
+        {
+            "id": "Compensation"
+        }
+    ],
+    "links": [
+        {
+            "source": "CPD",
+            "target": "Arnett Co"
+        },
+        {
+            "source": "CPD",
+            "target": "Scope of work"
+        },
+        {
+            "source": "CPD",
+            "target": "Termination Date"
+        },
+        {
+            "source": "CPD",
+            "target": "Compensation"
+        },
+        {
+            "source": "CPD",
+            "target": "Upload Date"
+        },
+        {
+            "source": "CPD",
+            "target": "Insurance"
+        },
+        {
+            "source": "Arnett Co",
+            "target": "Scope of work"
+        },
+        {
+            "source": "Arnett Co",
+            "target": "Compensation"
+        },
+        {
+            "source": "Scope of work",
+            "target": "Subcontract"
+        },
+        {
+            "source": "Upload Date",
+            "target": "Termination Date"
+        }
+    ]
+}
